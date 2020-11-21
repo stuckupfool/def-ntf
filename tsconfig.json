@@ -6,6 +6,8 @@
       "dom.iterable",
       "esnext"
     ],
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -20,6 +22,7 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "files": [ "declarations.d.ts"],
   "include": [
     "src"
   ]

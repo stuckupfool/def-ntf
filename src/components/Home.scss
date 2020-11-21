@@ -1,0 +1,26 @@
+@keyframes portal-rotation {
+    from {}
+    to { transform: rotate(359deg); }
+}
+
+@keyframes portal-scale {
+    from { transform: scale(0.9);}
+    to { transform: scale(0.8); opacity: 0.75;}
+}
+
+.portal-layer {
+    animation: portal-scale 2s alternate infinite ease-in-out;
+}
+
+.portal-layer-cnt {
+    animation: portal-rotation 6s infinite linear;
+}
+
+.portal-abs {
+    position: absolute;
+    transform: translate(-50%,0);
+    top: 100%;
+    left: 50%;
+    overflow: hidden;
+
+}

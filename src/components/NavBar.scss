@@ -1,0 +1,35 @@
+$nav-color: #d1fffd;
+
+hr {
+	height: 12px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+	margin-top: 0;
+	margin-bottom: 0;
+    background-color: transparent;
+}
+
+.home-btn {
+	height: 60px;
+	width: auto;
+	max-height: 200px !important;
+}
+
+.home-item {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.home-item:hover {
+    background-color: #c7f2f0 !important;
+}
+
+.page-item:hover {
+    background-color: #c7f2f0 !important;
+}
+
+.nav-main {
+	background-color: $nav-color;
+	position: sticky;
+	top: 0;
+}
