@@ -4,9 +4,13 @@ This is a mock Rick and Morty fan site created with a React SPA.
 
 ## Getting started
 
-You will need a typical node installation with npm before you can run the website. To quickly get running 
-type `npm run start` and a new browser window should open navigated to localhost:3000. If you want to "restart"
-the web app, simply hit Refresh of F5 on your keyboard.
+You will need a typical node installation with npm before you can run the website. Once you have checked out
+the repository, run the following commands to get the web application running:
+
+`npm install` followed by `npm run start`
+
+A new browser window should open navigated to localhost:3000. If you want to "restart" the web app, simply 
+hit Refresh of F5 on your keyboard.
 
 ## Available Scripts
 
